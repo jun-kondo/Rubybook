@@ -13,4 +13,4 @@ def fizzbuzz(array)
   end
 end
 
-print fizzbuzz((1..100).to_a)
+fizzbuzz([*1..100])
