@@ -7,6 +7,7 @@ def linear_search(array)
   array_number.times do |num|
     if array[num] == search_number
       find_id = num
+      break
     end
   end
   puts "見つかった番号= #{find_id}"
